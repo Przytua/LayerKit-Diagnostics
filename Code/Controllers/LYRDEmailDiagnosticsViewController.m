@@ -55,9 +55,10 @@ NSString *const LYRDScreenshotFileName = @"screenshot.png";
             [self addAttachmentData:zipFile mimeType:LYRDSnapshotMIMEType fileName:LYRDSnapshotFileName];
             
             completion(YES, nil);
+        } else {
+            completion(NO, error);
         }
-        
-        completion(NO, error);
+
     }];
 }
 
