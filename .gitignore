@@ -15,3 +15,7 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+*.framework
+*.bundle
+Pods
+xcodebuild.log
