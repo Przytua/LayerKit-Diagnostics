@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
     accepts two arguments: a Boolean value indicating if the snapshot was created successfully and an error object that, 
     upon failure, indicates the reason the snapshot was unsuccessful.
  */
-- (void)captureDiagnosticsWithCompletion:(void (^)(BOOL success, NSError *error))completion;
+- (void)captureDiagnosticsWithCompletion:(void (^)(BOOL success, NSError * _Nullable error))completion;
 
 /**
  @abstract The `LYRClient` object used to initialize the controller.

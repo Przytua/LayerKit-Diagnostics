@@ -37,7 +37,7 @@ NSString *const LYRDScreenshotFileName = @"screenshot.png";
     return self;
 }
 
-- (void)captureDiagnosticsWithCompletion:(void (^)(BOOL success, NSError *error))completion
+- (void)captureDiagnosticsWithCompletion:(void (^)(BOOL success, NSError * _Nullable error))completion
 {
     // Layer client will build the Zip file and return the file path
     [_layerClient captureDebugSnapshotWithCompletion:^(NSURL * _Nullable snapshotPath, NSError * _Nullable error) {
