@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  =  'LayerKitDiagnostics'
-  s.version               =  '1.0.0'
+  s.version               =  '1.0.2'
   s.summary               =  'The LayerKit Diagnostics interfaces'
   s.homepage              =  'http://layer.com'
   s.author                =  { 'Daniel Maness' => 'daniel@layer.com' }

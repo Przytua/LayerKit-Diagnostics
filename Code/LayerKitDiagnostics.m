@@ -8,4 +8,4 @@
 
 #import "LayerKitDiagnostics.h"
 
-NSString *const LYRDVersionString = @"1.0.0";
+NSString *const LYRDVersionString = @"1.0.2";
