@@ -10,7 +10,7 @@
 #import <MessageUI/MFMailComposeViewController.h>
 
 extern NSString *const LYRSDKVersionString;
-extern NSString *LYRHTTPUserAgentString();
+extern NSString *LYRHTTPUserAgentString(void);
 
 @implementation LYRDEmailDiagnosticsViewController
 
