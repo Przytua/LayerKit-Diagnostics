@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary               =  'The LayerKit Diagnostics interfaces'
   s.homepage              =  'http://layer.com'
   s.author                =  { 'Daniel Maness' => 'daniel@layer.com' }
-  s.source                =  { git: 'git@github.com:layerhq/LayerKit-Diagnostics.git', tag: s.version }
+  s.source                =  { git: 'https://github.com/layerhq/LayerKit-Diagnostics.git', tag: "v#{s.version}" }
   s.ios.frameworks        =  'UIKit'
   s.ios.deployment_target =  '8.0'
   s.license               =  'Commercial'
